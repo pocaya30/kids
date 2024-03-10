@@ -298,6 +298,11 @@ i {
     max-width: 54px;
   }
 }
+@media screen and (max-width: 470px) {
+  p {
+    text-align: center;
+  }
+}
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
