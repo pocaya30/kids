@@ -81,6 +81,10 @@ i {
     margin-top: 25px;
     font-size: 50px;
   }
+  .header-content .header-icons {
+    display: flex;
+    margin-right: 20px;
+  }
   .header-logo img {
     width: 250px;
     margin-top: 10px;
@@ -296,10 +300,11 @@ i {
 @media screen and (max-width: 768px) {
   .btn-whatsapp img {
     max-width: 54px;
+    margin-right: 30px;
   }
 }
-@media screen and (max-width: 470px) {
-  p {
+@media screen and (max-width: 420px) {
+  .footer p {
     text-align: center;
   }
 }

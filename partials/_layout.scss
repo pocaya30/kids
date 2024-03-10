@@ -188,6 +188,7 @@
     display: flex;
     gap: 8px;
     color: $white-normal;
+    
 }
 
 
@@ -231,13 +232,21 @@ transition: opacity 0.4s;
     .btn-whatsapp{
         img{
             max-width: 54px;
+            margin-right: 30px;
         }
+    } 
+}
+
+
+@media screen and (max-width:420px){
+    .footer p{
+        text-align: center;
     }
 }
 
-@media screen and (max-width: 470px){
-    p{text-align: center;}
-}
+
+
+
 
 
 
